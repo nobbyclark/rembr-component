@@ -1,7 +1,16 @@
 import React from 'react';
+import styled from 'styled-components';
 
-export default class RembrComponent extends React.Component {
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`;
+
+class RembrComponent extends React.Component {
   render() {
-    return <h1>Gidday Mate</h1>;
+    return <Title>{this.props.name}</Title>;
   }
 }
+
+export default RembrComponent;

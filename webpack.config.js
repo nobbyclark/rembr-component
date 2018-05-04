@@ -19,6 +19,7 @@ module.exports = {
     ]
   },
   externals: {
-    'react': 'umd react'
+    'react': 'umd react',
+    'styled-components': 'umd styled-components'
   }
 };
